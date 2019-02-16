@@ -12,6 +12,8 @@
   "author": "Bruna Bertolini",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "johnny-five": "^1.0.0",
+    "mqtt": "^2.18.8"
   }
 }
