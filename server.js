@@ -66,7 +66,6 @@ app.post('/led/stopBlink', function (req, res) {
 app.get('/checkSpot', function (req, res) {
     console.log('the distance is', distance);
     if (distance < 30) {
-
         res.send('Not free');
     } else {
         res.send('Is Free');
